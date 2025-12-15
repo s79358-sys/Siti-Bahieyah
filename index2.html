@@ -57,13 +57,13 @@
         .bento-card:hover {
             transform: translateY(-2px);
             box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-        }
-
+        
         /* Typography */
         .card-title {
             font-size: 1.2rem;
             font-weight: 700;
-            margin-top: 0;
+            margin-top: }
+0;
             margin-bottom: 10px;
             color: var(--color-text-primary);
         }
@@ -81,6 +81,25 @@
 
         /* Card 1 (Profile): Large box (2x2) */
         .card-profile {
+            /* 1. Specify the path to your image */
+  background-image: url('bg.jpg');
+
+  /* 2. Control how the image is positioned and repeated */
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* 3. Control how the image scales */
+  background-size: cover;
+
+  /* 4. (Optional) Set a fallback color */
+  background-color: #f0f0f0;
+
+  /* Other styling properties for the card (width, padding, etc.) */
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
             grid-column: span 2;
             grid-row: span 2;
         }
@@ -270,3 +289,4 @@
 </body>
 
 </html>
+
